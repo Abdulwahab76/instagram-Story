@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: hsl(185, 75%, 39%);
+  min-height: 100vh;
+  background-image: url(https://digitshack.com/codepen/mentor4/bg-pattern-top.svg),
+    url(https://digitshack.com/codepen/mentor4/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 48vw bottom 40vh, left 45vw top 44vh;
+}
+
+header {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  justify-content: center;
+}
+
+header p {
+  padding-bottom: 5px;
+  color: white;
+  /* padding: 0px; */
+}
+
+.container {
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper {
+  width: 200px;
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 1rem;
+}
+
+.wrapper #bg {
+  height: 84px;
+}
+/* border animation */
+
+.animate {
+  position: relative;
+  top: -50px;
+  cursor: pointer;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  border-radius: 50px;
+  background: linear-gradient(#feda75, #fa7e1e) padding-box,
+    linear-gradient(to right, #d62976, #962fbf) border-box;
+  width: 100px;
+  height: 100px;
+  margin: 0px auto;
+}
+.gray {
+  background: gray;
+  border: none;
+}
+.animate #story_view {
+  width: 92%;
+  object-fit: cover;
+  top: 4px;
+  border-radius: 50em;
+  position: relative;
+  z-index: 2;
+}
+
+.animate .border {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+
+  padding: 0px;
+
+  /* border: 2px dotted #feda75; */
+  border: 2px dotted #fff;
+  animation-name: Rotate;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@keyframes Rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.content h2 {
+  color: hsl(229, 23%, 23%);
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.content h2 span {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+}
+
+.content p {
+  color: hsl(227, 10%, 46%);
+  font-size: 13px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  /* border-top: 1px solid hsla(227, 10%, 46%, 0.2); */
+  padding: 30px 3px;
+  /* margin-top: 30px; */
+  gap: 10px;
+}
+
+.footer p.num {
+  font-size: 18px;
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 3; /* Sit on top */
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  border: none;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+.modal img {
+  object-fit: fill;
+  /* width: 400px; */
+  height: 30%;
+  max-width: 400px;
+  min-width: 250px;
+
+  padding: 20px;
+  margin: 10px;
+  border-radius: 40px;
+}
+
+/* Modal Content */
+.modal-content {
+  display: flex;
+  justify-content: space-around;
+
+  /* border: 1px solid #888; */
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  position: absolute;
+  right: 20px;
+
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
