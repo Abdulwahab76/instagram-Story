@@ -6,7 +6,7 @@ const storyData = [
     user: 'Abid Ali',
     id: 1,
     followers: '10k',
-    src: 'https://scontent.fkhi2-3.fna.fbcdn.net/v/t39.30808-6/295931593_122014440542454_4788070337020469873_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFBq8qfkjtJ8oU7M5sOlMmkACVSpnzPK5MAJVKmfM8rk6-F9zVqq-dwKfkKJAY3M4_yDNj-I0RioAwAIgIwbJua&_nc_ohc=JPorPLB-UTwAX8yl3wA&_nc_ht=scontent.fkhi2-3.fna&oh=00_AfCaegGKhWZyAGqHXL9QleFk-duljZEbH-9U4Wi29UCtow&oe=6407E707'
+    src: './assest/abid.jpg'
   },
   {
     like: '10k',
@@ -14,13 +14,13 @@ const storyData = [
     viwes: ' 0',
     user: 'Abdul Wahab',
     followers: '20k',
-    src: 'https://scontent.fkhi2-3.fna.fbcdn.net/v/t39.30808-6/322711386_886769009186636_9126001774481230410_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEdTQIaXIArcVW426726Ja8sewrToC-5nex7CtOgL7mdwh8UoN8ucn_HSei6LuwtyNJPRL1n08japX-sIQkz2kk&_nc_ohc=Rk_54WatxoYAX-R43ok&_nc_ht=scontent.fkhi2-3.fna&oh=00_AfANXE7zyGuXj7y64F7rTz4DXjWabPb03dcTHVA-rbhyCQ&oe=64091E0D'
+    src: './assest/wahab.jpg'
   },
   {
     id: 3,
     like: '5k',
     viwes: '0',
-    src: 'https://scontent.fkhi2-2.fna.fbcdn.net/v/t39.30808-6/330982757_876516770284149_3285300600059932135_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGyJQRiWG-pQ2Iz1gNDzoM-zuVgh1G58EjO5WCHUbnwSBUt8kerAg-3ohSDCLriGAEskTKPoSV0c5IS_l4T_N85&_nc_ohc=JaMCZQ0tV4YAX88RwQz&_nc_ht=scontent.fkhi2-2.fna&oh=00_AfAbq1qaK_xTeusBIejm6AC-YCDFebH-ll8zLBISw5bYkg&oe=640883FA',
+    src: './assest/saqlain.jpg',
     user: 'Saqlain Haider',
     followers: '30k'
   }
